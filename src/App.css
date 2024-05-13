@@ -1,0 +1,180 @@
+.App {
+  background-image: url('/public/back_ground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main{
+  background-color:gainsboro;
+  color: brown;
+  text-align: center;
+}
+.main_sec{
+  display:flex;
+}
+.main_sec img{
+  width:50%;
+  height:30%;
+  margin-left: 0%;
+  border-radius: 50%;
+}
+.main_link{
+  margin:15% 0% 0% 20%;
+  height:20%;
+  width:10%;
+  background-color:cadetblue;
+  padding-left: 5%;
+}
+.sub ul{
+  display:flex;
+  list-style: none;
+}
+.sub ul li{
+  margin-left: 15%;
+}
+.sec input{
+  margin: 5% 0% 0% 13%;
+}
+.sec button{
+  margin: 5% 0% 0% 5%;
+}
+.routes h2{
+  color: brown;
+  text-align: center;
+  background-color:gainsboro;
+}
+.rou{
+  display: flex;
+}
+.rou ul{
+  margin-left: 8%;
+}
+.rou ul li{
+  color:darkgreen;
+  list-style:circle;
+}
+.book{
+  margin:10% 30% 5% 30%;
+  border:2px solid green;
+  border-radius: 10%;
+}
+.books{
+  margin:10% 30% 5% 45%;
+  border:2px solid green;
+  border-radius: 10%;
+}
+.sub_book{
+  display: flex;
+}
+.seat{
+  margin:7%;
+  border:2px solid black;
+  height:50px;
+  width:5%;
+  border-radius: 20%;
+}
+.seat:hover{
+  background-color:chocolate;
+}
+.booking{
+  margin:1% 45%;
+}
+.search{
+  padding:10%;
+}
+.search table tr td{
+  border: 3px solid red;
+}
+.search tr td{
+  width:22%;
+}
+.main_book{
+  margin:0% 30% 0% 30%;
+  border: 2px solid yellow;
+  background-color:indianred;
+  padding-left:10%;
+}
+.main_book button{
+  margin-left: 35%;
+}
+.sub_book{
+  display: flex;
+}
+.sub_book p{
+  width:30%;
+}
+.sub_book input{
+  height:10%;
+  margin-top: 5%;
+}
+.tick_book{
+  margin: 5% 15%;
+}
+.tick_book table tr td{
+  border:2px solid red;
+}
+.can_main{
+  margin:0% 30% 0% 25%;
+  border: 2px solid red;
+  padding: 5% 10%;
+  border-radius: 10%;
+}
+.can_main p{
+  width:50%;
+}
+.can_sub{
+  display: flex;
+}
+.can_sub input{
+  background-color:cornsilk;
+  height: 20%;
+  margin-top:3%;
+}
+.can_main button{
+  margin-left: 30%;
+}
+.foot{
+  background-color:darkcyan;
+}
+.foot ul{
+  margin-left: 80%;
+  padding: 2% 0% 2% 0%;
+}
+.foot ul li{
+  list-style: none;
+}

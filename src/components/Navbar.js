@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <h1 className='main'>ONLINE BUS BOOKING SERVICE</h1>
       <div className='main_sec'>
-        <img src="./main.png" />
+        <img src="./public/main.png" />
         <Link to='/' className='main_link'>home</Link>
       </div>
       <div className='sub'>
